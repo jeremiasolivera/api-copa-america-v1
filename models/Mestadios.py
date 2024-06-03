@@ -9,4 +9,4 @@ class MEstadios(db.Model):
     apertura = db.Column(db.Date,nullable=False)
     capacidad = db.Column(db.Integer,nullable=False)
     equipo_local = db.Column(db.String(80),nullable=False)
-    img_estadio = db.Column(db.String(80), nullable=False, unique=True)
+    img_estadio = db.Column(db.String, nullable=False, unique=True)
