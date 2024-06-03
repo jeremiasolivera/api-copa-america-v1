@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask,redirect
 
 from blueprints import Bapi_v1
 from extensions import db,migrate,ma
@@ -16,6 +16,10 @@ ma.init_app(app)
 #postgres://apicopaamerica_user:JEYce4osoGX9T8jfvgiwwbM3Q1BMjr3j@dpg-cpeug75ds78s73fnifug-a.ohio-postgres.render.com/apicopaamerica
 # API V_1
 app.register_blueprint(blueprint=Bapi_v1)
+
+@app.route('/')
+def index():
+    return redirect('/api/v1/selecciones')
 
 
 
