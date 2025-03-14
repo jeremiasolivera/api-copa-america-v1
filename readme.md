@@ -8,7 +8,7 @@ Proporciona endpoints RESTful para acceder a la información de manera estructur
 
 1. Clona este repositorio:
    ```sh
-   git clone https://github.com/tuusuario/flask-football-api.git](https://github.com/jeremiasolivera/api-copa-america-v1
+   git clone https://github.com/jeremiasolivera/api-copa-america-v1
    cd api-copa-america
    ```
 
